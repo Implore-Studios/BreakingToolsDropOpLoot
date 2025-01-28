@@ -1,6 +1,8 @@
 # User-specific stuff
 .idea/
-
+bin
+.qodo
+.vscode
 *.iml
 *.ipr
 *.iws
