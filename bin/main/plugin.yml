@@ -1,0 +1,21 @@
+name: opbreakingtools
+version: "${version}"
+main: org.implorestudios.opbreakingtools.OpBreakingToolsPlugin
+description: All tools drop OP loot when they break.
+api-version: 1.13
+authors: [TejasLamba2006]
+depend:
+  - BlueSlimeCore
+softdepend:
+  - PlaceholderAPI
+commands:
+  opbreakingtools:
+    description: The command to use opbreakingtools.
+    usage: /opbreakingtools
+    permission: opbreakingtools
+    aliases: [opbt]
+
+permissions:
+  altinspector:
+    description: The permission to use Altinspector.
+    default: op

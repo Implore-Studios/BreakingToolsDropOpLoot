@@ -1,0 +1,24 @@
+# Prefix which will be shown before all the messages.
+prefix: "<gold>opbreakingtools <gray>»<white>"
+help-title: "<gold>Help: <b>%command%"
+# Messages for commands:
+commands:
+  # /opbreakingtools reload
+  reload: "<green>Configurations and languages reloaded."
+  # /opbreakingtools start
+  start:
+    # Message when the game is started.
+    started: "<green>Game started."
+    # Message when the game is already running.
+    already-running: "<red>Game is already running."
+  # /opbreakingtools stop
+  stop:
+    # Message when the game is stopped.
+    stopped: "<green>Game stopped."
+    # Message when the game is not running.
+    not-running: "<red>Game is not running."
+  # /opbreakingtools help
+  help: |-
+    <yellow>/opbreakingtools check <gray>- <white>Check if a player has alts.
+    <yellow>/opbreakingtools reload <gray>- <white>Reload configuration and languages.
+    <yellow>/opbreakingtools help <gray>- <white>Show this help message.
